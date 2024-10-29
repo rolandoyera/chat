@@ -76,7 +76,7 @@ export default function Chat() {
                         <Markdown
                           remarkPlugins={[remarkGfm]} // GitHub flavored Markdown support
                           components={{
-                            p: ({ node, ...props }) => (
+                            p: ({ ...props }) => (
                               <p className="leading-relaxed my-5" {...props} />
                             ),
                             a: ({ href, children }) => (
@@ -88,31 +88,31 @@ export default function Chat() {
                                 {children}
                               </a>
                             ),
-                            ul: ({ node, ...props }) => (
+                            ul: ({ ...props }) => (
                               <ul
                                 className="list-disc pl-5 mt-5 mb-5"
                                 {...props}
                               />
                             ),
-                            ol: ({ node, ...props }) => (
+                            ol: ({ ...props }) => (
                               <ol className="list-decimal pl-5" {...props} />
                             ),
-                            h1: ({ node, ...props }) => (
+                            h1: ({ ...props }) => (
                               <h1 className="text-2xl font-bold" {...props} />
                             ),
-                            h2: ({ node, ...props }) => (
+                            h2: ({ ...props }) => (
                               <h2
                                 className="text-xl font-semibold"
                                 {...props}
                               />
                             ),
-                            img: ({ node, ...props }) => (
+                            img: ({ ...props }) => (
                               <img
                                 className="max-w-[500px] my-5 rounded-xl"
                                 {...props}
                               />
                             ),
-                            blockquote: ({ node, ...props }) => (
+                            blockquote: ({ ...props }) => (
                               <blockquote
                                 className="border-l-4 border-gray-400 pl-4 italic text-gray-600"
                                 {...props}
