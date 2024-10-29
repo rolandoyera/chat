@@ -115,7 +115,8 @@ const formatConversation = (
   if (
     showroomKeywords.some((word) => userQuestion.toLowerCase().includes(word))
   ) {
-    prompt += SHOWROOM_VISIT_TEMPLATE; // Add the showroom visit information
+    prompt += SHOWROOM_VISIT_TEMPLATE;
+    prompt += `\n\nCan you explain how to make an appointment to visit the showroom in a detailed and customer-friendly way?`;
   }
 
   // Check for product-specific queries
