@@ -5,15 +5,13 @@ This GPT is an expert of the company Fine Art Handcrafted Lighting. You speciali
 
 const SHOWROOM_VISIT_TEMPLATE = `
 Visiting the Showroom:
-To visit the Fine Art Handcrafted Lighting showroom, an appointment is required. We encourage you to book an appointment in advance to ensure personalized attention and an exclusive experience. Our showroom is located at:
+Our showroom visits are by appointment only. If you would like to visit our showroom, please contact us at 305-821-3850 or customerservice@finearthl.com to schedule an appointment. 
 
 3840 W. 104 Street, Suite 20
 Hialeah, Florida 33018
 
 Showroom Hours:
 Monday through Friday from 9am to 5pm Eastern.
-
-To book an appointment, please call us at 305-821-3850 or send an email to customerservice@finearthl.com. We look forward to assisting you in selecting the perfect handcrafted lighting pieces for your space.
 `;
 
 const FINISHES_TEMPLATE = `
