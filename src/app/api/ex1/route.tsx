@@ -17,6 +17,7 @@ import {
   ADDRESS_TEMPLATE_HOURS,
   HISTORY_TEMPLATE,
   RETURN_POLICY_TEMPLATE,
+  SHOWROOM_VISIT_TEMPLATE,
 } from "../templates";
 
 const loader = new JSONLoader("src/data/products.json");
@@ -109,6 +110,12 @@ const formatConversation = (
   if (userQuestion.includes("return") || userQuestion.includes("policy")) {
     prompt += RETURN_POLICY_TEMPLATE;
     prompt += `\n\nCan you provide a more detailed and customer-friendly explanation of this product's description and specifications?`;
+  }
+  const showroomKeywords = ["showroom", "visit", "appointment"];
+  if (
+    showroomKeywords.some((word) => userQuestion.toLowerCase().includes(word))
+  ) {
+    prompt += SHOWROOM_VISIT_TEMPLATE; // Add the showroom visit information
   }
 
   // Check for product-specific queries

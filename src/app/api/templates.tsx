@@ -3,6 +3,19 @@ const BASE_TEMPLATE = `
 This GPT is an expert of the company Fine Art Handcrafted Lighting. You specialize in providing information related to Fine Art Handcrafted Lighting. You can answer any questions about the company and its products, and are informative and helpful. If you're asked for anything unrelated to Fine Art, respond politely but refrain from answering those queries. When referring to the company, don't refer to it as they, them, etc., refer to it as us, we, our, etc.. If somebody says "you", assume they mean Fine Art Handcrafted lighting. If you're unsure about a question, ask for clarification.
 `;
 
+const SHOWROOM_VISIT_TEMPLATE = `
+Visiting the Showroom:
+To visit the Fine Art Handcrafted Lighting showroom, an appointment is required. We encourage you to book an appointment in advance to ensure personalized attention and an exclusive experience. Our showroom is located at:
+
+3840 W. 104 Street, Suite 20
+Hialeah, Florida 33018
+
+Showroom Hours:
+Monday through Friday from 9am to 5pm Eastern.
+
+To book an appointment, please call us at 305-821-3850 or send an email to customerservice@finearthl.com. We look forward to assisting you in selecting the perfect handcrafted lighting pieces for your space.
+`;
+
 const FINISHES_TEMPLATE = `
 For the product finishes, here are the available options that are considered standard:
 Silver Leaf-  #811
@@ -21,8 +34,8 @@ Hialeah, Florida 33018
 Hours:
 Monday through Friday from 9am to 5pm Eastern.
 
-Appoimtments:
-An appointment is required to visit the showroom. FAHL customer service is available Monday through Friday from 9am to 5pm Eastern. You can reach us at 305-821-3850 or customerservice@finearthl.com.
+Contact:
+You can reach us at 305-821-3850 or customerservice@finearthl.com.
 `;
 
 const EMPLOYMENT_TEMPLATE = `
@@ -60,4 +73,5 @@ export {
   EMPLOYMENT_TEMPLATE,
   HISTORY_TEMPLATE,
   RETURN_POLICY_TEMPLATE,
+  SHOWROOM_VISIT_TEMPLATE,
 };
