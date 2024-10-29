@@ -1,0 +1,38 @@
+[
+  {
+    "collection": "mirage",
+    "collection_description": "The Mirage chandelier features handblown glass with distinctive swirling patterns that add a refined touch to any room. It incorporates upcycled shagreen and mixed metals for a customizable, luxurious finish. Available in two main finishes—Champagne (gold), Midnight Steel (black), or one of our five standard finishes—you can choose accents in satin brass or nickel. Additionally, the chandelier offers three upcycled shagreen options: Pebble, Coco, and Black Knight.",
+    "collection_url": "https://finearthl.com/mirage/",
+    "image_url": "https://cdn11.bigcommerce.com/s-utdcpqn2wn/images/stencil/960w/products/626/2323/100036-723__81763.1728056144.jpg",
+    "product": [
+      {
+        "item": "50 inch Round Chandelier",
+        "item#": "100036",
+        "weight": "100 lbs",
+        "dimensions": "35h x 50w",
+        "min_max_height": "37 inches to 108 inches",
+        "bulb_type": "B10, 60W, Candelabra",
+        "bulb_qty": 24,
+        "canopy_dimensions": "1.25H x 8.75W",
+        "vaulted_ceilings": "Not Suitable for Vaulted Ceilings",
+        "location_rating": "Indoor Dry",
+        "item_url": "https://finearthl.com/50w-round-chandelier/",
+        "image_url": "https://cdn11.bigcommerce.com/s-utdcpqn2wn/images/stencil/960w/products/626/2323/100036-723__81763.1728056144.jpg"
+      },
+      {
+        "item": "49.75 inch Round Chandelier",
+        "item#": "100048",
+        "weight": "60 lbs",
+        "dimensions": "17.5H x 49.75W",
+        "min_max_height": "21 - 92 inches",
+        "bulb_type": "B10, 60W, Candelabra",
+        "bulb_qty": 12,
+        "canopy_dimensions": "1.25H x 8.75W",
+        "vaulted_ceilings": "Not Suitable for Vaulted Ceilings",
+        "location_rating": "Indoor Dry",
+        "item_url": "https://finearthl.com/mirage-49-75w-round-chandelier/",
+        "image_url": "https://cdn11.bigcommerce.com/s-utdcpqn2wn/images/stencil/960w/products/715/2334/100048-313__04506.1728056144.jpg"
+      }
+    ]
+  }
+]
