@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import logoDark from "/img/logo-white.png";
-import logoLight from "/img/fahl-logo-black-jpg.jpg";
+import logoDark from "/public/img/logo-white.png";
+import logoLight from "/public/img/fahl-logo-black-jpg.jpg";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import {
   DropdownMenu,
