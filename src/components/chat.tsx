@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { useChat } from "ai/react";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import Image from "next/image";
-import { ArrowUp, CircleStop } from "lucide-react"; // Import the X icon for stop
+import { ArrowUp } from "lucide-react"; // Import the X icon for stop
 import {
   Tooltip,
   TooltipContent,
