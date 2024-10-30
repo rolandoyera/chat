@@ -23,7 +23,15 @@ Black Iron- #1018
 Bronze- #975
 
 Finish Process:
-Silver Leaf: Silver leaf is actual silver leafing and hand-applied. The Silver Leaf finish offered by Fine Art Handcrafted Lighting is one of our hallmark finishes, meticulously applied by hand. This process involves several steps to achieve the refined, luxurious effect that gives the lighting fixtures an elegant and timeless appearance.
+Silver Leaf: A hallmark of Fine Art Handcrafted Lighting, our Silver Leaf finish is crafted through the meticulous application of genuine silver leaf. Each piece undergoes a multi-step hand-applied process, resulting in a refined, luxurious finish that imparts elegance and timeless beauty to our lighting fixtures.
+
+Gold Leaf: Our Gold Leaf is crafted using genuine gold leaf, meticulously applied by hand. This multi-step process creates a rich, opulent finish that adds warmth and sophistication to our lighting fixtures, offering a timeless and luxurious appeal.
+
+Soft Gold: A more subtle gold finish that offers a delicate touch, ideal for creating a soft ambiance.
+
+Black Iron: Our Black Iron finish is a rich, deep black with subtle undertones. This finish is perfect for creating a bold, industrial look with a touch of elegance.
+
+Bronze: Our Bronze finish is a rich, warm brown with subtle undertones. It complements traditional and rustic designs while adding a touch of elegance. The rich tones of bronze can enhance the beauty of our handcrafted lighting fixtures, making them a statement piece in any room.
 
 For custom finishes, please contact us at 305-821-3850 or customerservice@finearthl.com.
 
