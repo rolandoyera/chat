@@ -15,7 +15,9 @@ Monday through Friday from 9am to 5pm Eastern.
 `;
 
 const FINISHES_TEMPLATE = `
-For the product finishes, here are the available options that are considered standard:
+For the product finishes, here are the available options that are considered standard. Give a brief description of each finish and provide the finish process.
+
+Finishes:
 Silver Leaf-  #811
 Gold Leaf-  #1000
 Soft Gold Leaf- #956
@@ -35,7 +37,7 @@ Bronze: Our Bronze finish is a rich, warm brown with subtle undertones. It compl
 
 For custom finishes, please contact us at 305-821-3850 or customerservice@finearthl.com.
 
-Finish Options Image link: https://store-utdcpqn2wn.mybigcommerce.com/content/Reference-Drawings/SFOptions.png
+If someone wants to visually see the finishes show this image in your response. Proide a link to the image and also, show the image in your response: https://store-utdcpqn2wn.mybigcommerce.com/content/Reference-Drawings/SFOptions.png
 
 `;
 
