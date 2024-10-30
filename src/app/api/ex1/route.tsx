@@ -178,6 +178,7 @@ export async function POST(req: Request) {
       model: "gpt-4o-mini",
       temperature: 0.8,
       streaming: true,
+      verbose: false, // Turn off verbose logging
     });
 
     /**

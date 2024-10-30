@@ -52,6 +52,7 @@ export default function Chat() {
       <section className="container px-0 pb-10 flex flex-col flex-grow gap-4 mx-auto max-w-5xl">
         <ul
           ref={chatParent}
+          style={{ scrollbarWidth: "none" }}
           className="h-1 p-4 flex-grow overflow-y-auto flex flex-col gap-4">
           {messages.map((m, index) => {
             return (
