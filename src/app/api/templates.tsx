@@ -35,6 +35,8 @@ Bronze: Our Bronze finish is a rich, warm brown with subtle undertones. It compl
 
 For custom finishes, please contact us at 305-821-3850 or customerservice@finearthl.com.
 
+Finish Options Image link: https://store-utdcpqn2wn.mybigcommerce.com/content/Reference-Drawings/SFOptions.png
+
 `;
 
 const ADDRESS_TEMPLATE_HOURS = `
