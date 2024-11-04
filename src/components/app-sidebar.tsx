@@ -14,63 +14,13 @@ import {
 const data = {
   navMain: [
     {
-      title: "Dashboards",
-      url: "#",
-      icon: SquareTerminal,
-      isActive: true,
-      items: [
-        {
-          title: "Sales",
-          url: "#",
-        },
-        {
-          title: "Web Traffic",
-          url: "#",
-        },
-        {
-          title: "Social Media",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Customers",
-      url: "#",
-      icon: Users,
-      items: [
-        {
-          title: "Add",
-          url: "#",
-        },
-        {
-          title: "View",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Orders",
-      url: "#",
-      icon: Users,
-      items: [
-        {
-          title: "Add",
-          url: "#",
-        },
-        {
-          title: "View",
-          url: "#",
-        },
-      ],
-    },
-    {
       title: "AI Agents",
       url: "#",
       icon: Bot,
       items: [
         {
-          title: "Genesis",
-          url: "#",
+          title: "Insurance",
+          url: "/insurance",
         },
         {
           title: "Explorer",

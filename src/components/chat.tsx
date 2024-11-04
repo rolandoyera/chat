@@ -7,7 +7,7 @@ import remarkGfm from "remark-gfm";
 import { useChat } from "ai/react";
 import { useRef, useEffect } from "react";
 import Image from "next/image";
-import { ArrowUp } from "lucide-react"; // Import the X icon for stop
+import { ArrowUp } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -43,13 +43,11 @@ export default function Chat() {
   // Handle form submission
 
   return (
-    <div className="flex flex-col w-full h-full mx-auto stretch">
-      <header className="p-4 w-full max-w-4xl mx-auto mt-5">
-        <p>Meet</p>
-        <h1 className={`${genesis.className} text-5xl font-bold`}>Genesis</h1>
-      </header>
-
-      <section className="container px-0 pb-10 flex flex-col flex-grow gap-4 mx-auto max-w-5xl">
+    <div className="flex flex-col md:flex-row w-full h-full border border-red-500">
+      <div className="p-4 max-w-[350px] w-full border border-green-500">
+        <p>History</p>
+      </div>
+      <div className=" px-0 pb-10 flex flex-col flex-grow gap-4 mx-auto mb-auto h-full max-w-5xl">
         <ul
           ref={chatParent}
           style={{ scrollbarWidth: "none" }}
@@ -130,40 +128,52 @@ export default function Chat() {
             );
           })}
         </ul>
-      </section>
 
-      <section className="p-4">
-        {/* The form handles the submission, not the button directly */}
-        <form
-          onSubmit={handleSubmit}
-          className="flex w-full max-w-3xl mx-auto items-center mb-10">
-          <Input
-            placeholder="Message Genesis"
-            type="text"
-            value={input}
-            onChange={handleInputChange}
-          />
+        <div className="p-4">
+          {/* The form handles the submission, not the button directly */}
+          <form
+            onSubmit={handleSubmit}
+            className="flex w-full max-w-3xl mx-auto items-center mb-10">
+            <Input
+              placeholder="Message Genesis"
+              type="text"
+              value={input}
+              onChange={handleInputChange}
+            />
 
-          <Tooltip>
-            <TooltipTrigger asChild>
-              <div>
-                <Button
-                  disabled={!input.trim()}
-                  className="ml-2 rounded-full h-10 w-10"
-                  type="submit"
-                  size="icon">
-                  <ArrowUp />
-                </Button>
-              </div>
-            </TooltipTrigger>
-            {!input.trim() && (
-              <TooltipContent className="mb-2">
-                <span>Message is empty</span>
-              </TooltipContent>
-            )}
-          </Tooltip>
-        </form>
-      </section>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <div>
+                  <Button
+                    disabled={!input.trim()}
+                    className="ml-2 rounded-full h-10 w-10"
+                    type="submit"
+                    size="icon">
+                    <ArrowUp />
+                  </Button>
+                </div>
+              </TooltipTrigger>
+              {!input.trim() && (
+                <TooltipContent className="mb-2">
+                  <span>Message is empty</span>
+                </TooltipContent>
+              )}
+            </Tooltip>
+          </form>
+        </div>
+      </div>
+      <div className="p-4 max-w-[350px] w-full border border-green-500 2xl:flex flex-col items-center ">
+        <div>
+          <p className="-ml-6 -mb-2">Meet</p>
+          <h1 className={`${genesis.className} text-5xl font-bold`}>Surety</h1>
+        </div>
+        <p className="mt-6 font-extralight">
+          Surety, knows details and some specifics of our General Insurance
+          Policy. As time goes on she'll learn more and will provide information
+          relating to our policy.
+        </p>
+        <div></div>
+      </div>
     </div>
   );
 }

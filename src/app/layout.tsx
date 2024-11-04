@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+"use client";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -9,25 +9,18 @@ const inter = Inter({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "FAHL CRM",
-  description: "CRM for FAHL",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
-          enableSystem={true}
-          storageKey="dashboard-theme">
-          {children}
+        <ThemeProvider attribute="class">
+          <main className="flex h-full flex-col items-center justify-center">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>
